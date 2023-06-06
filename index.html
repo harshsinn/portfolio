@@ -16,9 +16,13 @@
         <!--==================== LIGHTBOX ====================-->
         <link rel="stylesheet" href="assets/css/glightbox.css" />
 
+        <!--========== BOX ICONS ==========-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
         <title>Portfolio</title>
     </head>
     <body>
+
         <!--==================== HEADER ====================-->
         <header class="header" id="header">
             <nav class="nav container">
@@ -62,13 +66,12 @@
 
                 <div class="nav__btns">
                     <!-- change theme button -->
-                    <i class="uil uil-moon change-theme" id="theme-button"></i>
+                    <!-- <i class="bx bx-moon change-theme" title="Theme" id="theme-button"></i> -->
                     <div class="nav__toggle" id="nav-toggle">
                         <i class="uil uil-apps"></i>
                     </div>
-                </div>
-            </nav>
-            
+                </div>               
+            </nav>           
         </header>
 
         <!--==================== MAIN ====================-->
@@ -108,7 +111,7 @@
                                     165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
                                     129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
                                     -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
-                                    <image class="home__blob-img" x="12" y="18" xlink:href="assets/img/perfil.png"/>
+                                    <image class="home__blob-img" x="12"  xlink:href="assets/img/passport.png"/>
                                 </g>
                             </svg>
                         </div>
@@ -116,7 +119,7 @@
                         <div class="home__data">
                             <h1 class="home__title">Hi! I am Harsh</h1>
                             <h3 class="home__subtitle">Web Developer, Android & IOS Developer, Programmer</h3>
-                            <p class="home__description">Experience in Web, Android & IOS design and development.</p>
+                            <p class="home__description">Knowledge in Web, Android & IOS design and development.</p>
                             <a href="#contact" class="button button--flex">
                                 Contact Me <i class="uil uil-message button__icon"></i>
                             </a>
@@ -140,28 +143,28 @@
                 <span class="section__subtitle">My Introduction</span>
 
                 <div class="about__container container grid">
-                    <img src="assets/img/about.jpg" alt="" class="about__img">
+                    <img src="assets/img/about.png" alt="" class="about__img" style="border-radius: 8px;">
 
                     <div class="about__data">
-                        <p class="about__description">Web developer, with extensive knowledge and years of experience, working in web technologies and Ui / Ux design, delivering quality work.</p>
+                        <p class="about__description">🚀 Innovative Fresher | Empowering the Digital Landscape through Web Development, Android Apps, and Python Programming | Seeking to Inspire and Shape the Future of Tech. Seeking Opportunities to Create Innovative Solutions. Dedicated, hardworking, and determined to being a productive team member.</p>
 
                         <div class="about__info">
-                            <div>
+                            <!-- <div>
                                 <span class="about__info-title">08+</span>
                                 <span class="about__info-name">Years <br> experience</span>
-                            </div>
+                            </div> -->
                             <div>
-                                <span class="about__info-title">08+</span>
+                                <span class="about__info-title">02</span>
                                 <span class="about__info-name">Completed <br> Project</span>
                             </div>
                             <div>
-                                <span class="about__info-title">02+</span>
+                                <span class="about__info-title">01</span>
                                 <span class="about__info-name">Companies <br> worked</span>
                             </div>
                         </div>
 
                         <div class="about__buttons">
-                            <a download="" href="assets/pdf/Harsh-Cv.pdf" class="button button--flex button--white">
+                            <a href="https://cv-harsh.netlify.app/" class="button button--flex button--white">
                                 Download CV <i class="uil uil-arrow-to-bottom button__icon"></i>
                             </a>
                         </div>
@@ -175,14 +178,13 @@
                 <span class="section__subtitle">My Technical Level</span>
 
                 <div class="skills__container container grid">
-                    <div>
+                    <div class="skill-content">
                         <!--==================== SKILLS1 ====================-->
                         <div class="skills__content skills__open">
                             <div class="skills__header">
                                 <i class="uil uil-brackets-curly skills__icon"></i>
                                 <div>
                                     <h1 class="skills__title">Frontend Development</h1>
-                                    <span class="skills__subtitle">More than </span>
                                 </div>
                                 <i class="uil uil-angle-down skills__arrow"></i>
                             </div>
@@ -227,7 +229,6 @@
                                 <i class="uil uil-database skills__icon"></i>
                                 <div>
                                     <h1 class="skills__title">Backend Development</h1>
-                                    <span class="skills__subtitle">More than </span>
                                 </div>
                                 <i class="uil uil-angle-down skills__arrow"></i>
                             </div>
@@ -283,7 +284,6 @@
                                 <i class="uil uil-programming-language skills__icon"></i>
                                 <div>
                                     <h1 class="skills__title">Programming</h1>
-                                    <span class="skills__subtitle">More than </span>
                                 </div>
                                 <i class="uil uil-angle-down skills__arrow"></i>
                             </div>
@@ -328,7 +328,6 @@
                                 <i class="uil uil-android skills__icon"></i>
                                 <div>
                                     <h1 class="skills__title">Android & IOS Development</h1>
-                                    <span class="skills__subtitle">More than </span>
                                 </div>
                                 <i class="uil uil-angle-down skills__arrow"></i>
                             </div>
@@ -354,8 +353,8 @@
 
             <!--==================== QUALIFICATION ====================-->
             <section class="qualification section">
-                <h2 class="section__title">Qualification</h2>
-                <span class="section__subtitle">My personal journey</span>
+                <h2 class="section__title">QUALIFICATION</h2>
+                <span class="section__subtitle">My journey</span>
 
                 <div class="qualification__container container">
                     <div class="qualification__tabs">
@@ -376,11 +375,13 @@
                             <!--=============== QUALIFICATION 1 ===============-->
                             <div class="qualification__data">
                                 <div>
-                                    <h3 class="qualification__title">Computer Engineer</h3>
-                                    <span class="qualification__subtitle">Peru - University</span>
+                                    <h3 class="qualification__title">Masters of Computer Application</h3>
+                                    <span class="qualification__subtitle">Chandigarh University <br> 
+                                        Mohali, Punjab</span>                                    
                                     <div class="qualification__calendar">
                                         <i class="uil uil-calendar-alt"></i>
-                                        2009 - 2014
+                                        2023 - Present <br>
+                                        Pursuing
                                     </div>
                                 </div>
     
@@ -400,11 +401,12 @@
                                 </div>
                           
                                 <div>
-                                    <h3 class="qualification__title">Web Design</h3>
-                                    <span class="qualification__subtitle">Spain - Institute</span>
+                                    <h3 class="qualification__title">Bachelors of Computer Application</h3>
+                                    <span class="qualification__subtitle">DSMS College of Tourism & Management <br> Durgapur, West Bengal</span>
                                     <div class="qualification__calendar">
                                         <i class="uil uil-calendar-alt"></i>
-                                        2014 - 2017
+                                        2019 - 2022 <br>
+                                        Graduated with 93.6%
                                     </div>
                                 </div>
                             </div>
@@ -412,11 +414,13 @@
                             <!--=============== QUALIFICATION 3 ===============-->
                             <div class="qualification__data">
                                 <div>
-                                    <h3 class="qualification__title">Web Development</h3>
-                                    <span class="qualification__subtitle">Peru - Institute</span>
+                                    <h3 class="qualification__title">12the Standard</h3>
+                                    <span class="qualification__subtitle">D.A.V Public School <br>
+                                        Asansol, West Bengal</span>
                                     <div class="qualification__calendar">
                                         <i class="uil uil-calendar-alt"></i>
-                                        2017 - 2019
+                                        2018 - 2019 <br>
+                                        Scored: 78%
                                     </div>
                                 </div>
     
@@ -436,11 +440,13 @@
                                 </div>
 
                                 <div>
-                                    <h3 class="qualification__title">Master in Ui/Ux</h3>
-                                    <span class="qualification__subtitle">Peru - Institute</span>
+                                    <h3 class="qualification__title">10th Standard</h3>
+                                    <span class="qualification__subtitle">D.A.V Public School <br>
+                                        Asansol, West Bengal</span>
                                     <div class="qualification__calendar">
                                         <i class="uil uil-calendar-alt"></i>
-                                        2019 - 2021
+                                        2016 - 2017 <br>
+                                        Scored: 74%
                                     </div>
                                 </div>
                             </div>
@@ -451,46 +457,11 @@
                             <!--=============== QUALIFICATION 1 ===============-->
                             <div class="qualification__data">
                                 <div>
-                                    <h3 class="qualification__title">Software Engineer</h3>
-                                    <span class="qualification__subtitle">Microsoft - Peru</span>
+                                    <h3 class="qualification__title">Customer Service Representative</h3>
+                                    <span class="qualification__subtitle">WIPRO - Noida</span>
                                     <div class="qualification__calendar">
                                         <i class="uil uil-calendar-alt"></i>
-                                        2016-2018
-                                    </div>
-                                </div>
-    
-                                <div>
-                                    <span class="qualification__rounder"></span>
-                                    <span class="qualification__line"></span>
-                                </div>
-                            </div>
-                            
-                            <!--=============== QUALIFICATION 2 ===============-->
-                            <div class="qualification__data">
-                                <div></div>
-    
-                                <div class="qualification__time">
-                                    <span class="qualification__rounder"></span>
-                                    <span class="qualification__line"></span>
-                                </div>
-
-                                <div>
-                                    <h3 class="qualification__title">Frontend Developer</h3>
-                                    <span class="qualification__subtitle">Apple Inc - Spain</span>
-                                    <div class="qualification__calendar">
-                                        <i class="uil uil-calendar-alt"></i>
-                                        2018-2020
-                                    </div>
-                                </div>
-                            </div>
-    
-                            <div class="qualification__data">
-                                <div>
-                                    <h3 class="qualification__title">Ui Designer</h3>
-                                    <span class="qualification__subtitle">Figma - Spain</span>
-                                    <div class="qualification__calendar">
-                                        <i class="uil uil-calendar-alt"></i>
-                                        2020-2021
+                                        Nov 2022 - April 2023
                                     </div>
                                 </div>
     
@@ -498,7 +469,7 @@
                                     <span class="qualification__rounder"></span>
                                     <!-- <span class="qualification__line"></span> -->
                                 </div>
-                            </div>
+                            </div>                          
                         </div>
                     </div>
                 </div>
@@ -625,12 +596,13 @@
                                     <img src="assets/img/portfolio1.jpg" alt="" class="portfolio__img">
                                     
                                     <div class="portfolio__data">
-                                        <h3 class="portfolio__title">Dating Website</h3>
+                                        <h3 class="portfolio__title">Student Management System</h3>
+                                        <span class="portfolio__subtitle"> Final Year Project <br> Nov 2021 - Dec 2021</span>
                                         <p class="portfolio__description">
-                                            Website adaptable to all devices, with ui components and animated interactions.
+                                            Developed the front-end using HTML, CSS, JavaScript, Bootstrap, PHP and used MySQL as the database to store student's information. 
                                         </p>
-                                        <a href="#" class="button button--flex button--small portfolio__button">
-                                            Demo
+                                        <a href="project.html#project1" class="button button--flex button--small portfolio__button">
+                                            View
                                             <i class="uil uil-arrow-right button__icon"></i><br>
                                         </a>
                                     </div>
@@ -643,35 +615,17 @@
                                     <img src="assets/img/portfolio2.jpg" alt="" class="portfolio__img">
 
                                     <div class="portfolio__data">
-                                        <h3 class="portfolio__title">Brand Design</h3>
+                                        <h3 class="portfolio__title">Facial Recognition Attendance System</h3>
+                                        <span class="portfolio__subtitle"> Final Year Project <br> April 2022 - May 2022</span>
                                         <p class="portfolio__description">
-                                            Website adaptable to all devices, with ui components and animated interactions.
+                                            Developed using Python and MySQL as the database.
                                         </p>
-                                        <a href="#" class="button button--flex button--small portfolio__button">
-                                            Demo
+                                        <a href="project.html#project2" class="button button--flex button--small portfolio__button">
+                                            View
                                             <i class="uil uil-arrow-right button__icon"></i><br>
                                         </a>
                                     </div>
                                 </div>
-                            </swiper-slide>
-
-                            <swiper-slide>
-                                <!--==================== PORTFOLIO 3====================-->
-                                <div class="portfolio__content grid mySwiper">
-                                    <img src="assets/img/portfolio3.jpg" alt="" class="portfolio__img">
-
-                                    <div class="portfolio__data">
-                                        <h3 class="portfolio__title">Online Store</h3>
-                                        <p class="portfolio__description">
-                                            Website adaptable to all devices, with ui components and animated interactions.
-                                        </p>
-                                        <a href="#" class="button button--flex button--small portfolio__button">
-                                            Demo
-                                            <i class="uil uil-arrow-right button__icon"></i><br>
-                                        </a>
-                                    </div>
-                                </div>
-
                             </swiper-slide>
     
                         </swiper-container>
@@ -687,12 +641,12 @@
                     <div class="project__container container grid">
                         <div class="project__data">
                             <h2 class="project__title">Hire Me</h2>
-                            <p class="project__description">Contact me now and get a discount immediately.</p>
+                            <p class="project__description">As an ambitious and dedicated fresher, I bring a fresh perspective, a hunger to learn, and a drive to excel in the IT industry. With my strong academic background, adaptability, and passion for coding, web and app development. I am ready to contribute and grow alongside your esteemed organization. Hire me for a dynamic and promising addition to your team.</p>
                             <a href="#contact" class="button button--flex button--white">
                                 Contact Me <i class="uil uil-message project__icon button__icon"></i>
                             </a>
                         </div>
-                        <img src="assets/img/project.png" alt="" class="project__img">
+                        <img src="assets/img/me.png" alt="" class="project__img">
                     </div>
                 </div>
             </section>
@@ -719,15 +673,11 @@
                                       </a>
 
                                     <div class="certification__data">
-                                        <h3 class="certification__title">Android App Development Training</h3>
-                                        <p class="certification__subtitle">Internshala</p>
+                                        <h3 class="certification__title">Android App Development</h3>
+                                        <p class="certification__subtitle">Internshala <br> September, 2021</p>
                                         <p class="certification__description">
-                                            Website adaptable to all devices, with ui components and animated interactions.
+                                            Using kotlin made few applications to open up to android app developemt.
                                         </p>
-                                        <a href="#" class="button button--flex button--small certification__button">
-                                            View
-                                            <i class="uil uil-arrow-right button__icon"></i><br>
-                                        </a>
                                     </div>
                                 </div>
                             </swiper-slide>
@@ -743,14 +693,10 @@
 
                                     <div class="certification__data">
                                         <h3 class="certification__title">Python for Data Science</h3>
-                                        <p class="certification__subtitle">National Programme on Technology Enhanced Learning - NPTEL</p>
+                                        <p class="certification__subtitle">National Programme on Technology Enhanced Learning - NPTEL <br> September, 2021</p>
                                         <p class="certification__description">
-                                            Website adaptable to all devices, with ui components and animated interactions.
+                                            Learned to read large data and view the summarized and graphical format of the data.
                                         </p>
-                                        <a href="#" class="button button--flex button--small certification__button">
-                                            View
-                                            <i class="uil uil-arrow-right button__icon"></i><br>
-                                        </a>
                                     </div>
                                 </div>
                             </swiper-slide>
@@ -765,14 +711,10 @@
 
                                     <div class="certification__data">
                                         <h3 class="certification__title">Crash Course on Python by Google</h3>
-                                        <p class="certification__subtitle">Platform Coursera</p>
+                                        <p class="certification__subtitle">Courera <br> February, 2021</p>
                                         <p class="certification__description">
-                                            Website adaptable to all devices, with ui components and animated interactions.
+                                            Basics of python such as loops, lists, tuples, dictionary, set.
                                         </p>
-                                        <a href="#" class="button button--flex button--small certification__button">
-                                            View
-                                            <i class="uil uil-arrow-right button__icon"></i><br>
-                                        </a>
                                     </div>
                                 </div>
                             </swiper-slide>
@@ -787,14 +729,10 @@
 
                                     <div class="certification__data">
                                         <h3 class="certification__title">HTML, CSS and JavaScript for Web Developers by John Hopkins University</h3>
-                                        <p class="certification__subtitle">Platform - Coursera</p>
+                                        <p class="certification__subtitle">Coursera <br> September, 2020</p>
                                         <p class="certification__description">
-                                            Website adaptable to all devices, with ui components and animated interactions.
+                                            Created a website for a restaurant using HTML, CSS and JavaScipt. Used JavaScipt to create random menu items every time a user visits the items page.
                                         </p>
-                                        <a href="#" class="button button--flex button--small certification__button">
-                                            View
-                                            <i class="uil uil-arrow-right button__icon"></i><br>
-                                        </a>
                                     </div>
                                 </div>
                             </swiper-slide>
@@ -809,14 +747,10 @@
 
                                     <div class="certification__data">
                                         <h3 class="certification__title">Building Web Applications in PHP by University of Michigan</h3>
-                                        <p class="certification__subtitle">Coursera</p>
+                                        <p class="certification__subtitle">Coursera <br> October, 2020</p>
                                         <p class="certification__description">
-                                            Website adaptable to all devices, with ui components and animated interactions.
+                                            Learned how to use php in web development to create web applications.
                                         </p>
-                                        <a href="#" class="button button--flex button--small certification__button">
-                                            View
-                                            <i class="uil uil-arrow-right button__icon"></i><br>
-                                        </a>
                                     </div>
                                 </div>
                             </swiper-slide>
@@ -831,14 +765,10 @@
 
                                     <div class="certification__data">
                                         <h3 class="certification__title">Git & GitHub by Google</h3>
-                                        <p class="certification__subtitle">Coursera</p>
+                                        <p class="certification__subtitle">Coursera <br> October, 2020</p>
                                         <p class="certification__description">
                                             Website adaptable to all devices, with ui components and animated interactions.
                                         </p>
-                                        <a href="#" class="button button--flex button--small certification__button">
-                                            View
-                                            <i class="uil uil-arrow-right button__icon"></i><br>
-                                        </a>
                                     </div>
                                 </div>
                             </swiper-slide>
@@ -853,14 +783,10 @@
 
                                     <div class="certification__data">
                                         <h3 class="certification__title">Fundamental of Digital Marketing by Google</h3>
-                                        <p class="certification__subtitle">Google Garage</p>
+                                        <p class="certification__subtitle">Google Digital Garage <br> </p>
                                         <p class="certification__description">
                                             Website adaptable to all devices, with ui components and animated interactions.
                                         </p>
-                                        <a href="#" class="button button--flex button--small certification__button">
-                                            View
-                                            <i class="uil uil-arrow-right button__icon"></i><br>
-                                        </a>
                                     </div>
                                 </div>
                             </swiper-slide>
