@@ -8,7 +8,7 @@
         <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
         
         <!--==================== SWIPER CSS ====================-->
-        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
 
         <!--==================== CSS ====================-->
         <link rel="stylesheet" href="assets/css/styles.css">
@@ -119,7 +119,7 @@
                         <div class="home__data">
                             <h1 class="home__title">Hi! I am Harsh</h1>
                             <h3 class="home__subtitle">Web Developer, Android & IOS Developer, Programmer</h3>
-                            <p class="home__description">Knowledge in programming languages, Web, Android & IOS design and development.</p>
+                            <p class="home__description">Knowledge in Web, Android & IOS design and development.</p>
                             <a href="#contact" class="button button--flex">
                                 Contact Me <i class="uil uil-message button__icon"></i>
                             </a>
@@ -341,6 +341,16 @@
                                     </div>
                                     <div class="skills__bar">
                                         <span class="skills__percentage skills__flutter"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__title">
+                                        <div class="skills__name">Dart</div>
+                                        <span class="skills__number">60%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__dart"></span>
                                     </div>
                                 </div>
                                 
@@ -593,7 +603,7 @@
                             <swiper-slide style="padding-bottom: 3rem;">
                                 <!--==================== PORTFOLIO 1====================-->
                                 <div class="portfolio__content grid mySwiper">
-                                    <img src="assets/img/portfolio1.jpg" alt="" class="portfolio__img">
+                                    <img src="assets/project/sms.png" alt="" class="portfolio__img">
                                     
                                     <div class="portfolio__data">
                                         <h3 class="portfolio__title">Student Management System</h3>
@@ -601,7 +611,7 @@
                                         <p class="portfolio__description">
                                             Developed the front-end using HTML, CSS, JavaScript, Bootstrap, PHP and used MySQL as the database to store student's information. 
                                         </p>
-                                        <a href="project.html#project1" class="button button--flex button--small portfolio__button">
+                                        <a href="pages/project.html#project1" class="button button--flex button--small portfolio__button">
                                             View
                                             <i class="uil uil-arrow-right button__icon"></i><br>
                                         </a>
@@ -612,7 +622,7 @@
                             <swiper-slide>
                                 <!--==================== PORTFOLIO 2====================-->
                                 <div class="portfolio__content grid mySwiper">
-                                    <img src="assets/img/portfolio2.jpg" alt="" class="portfolio__img">
+                                    <img src="assets/project/fras.jpg" alt="" class="portfolio__img">
 
                                     <div class="portfolio__data">
                                         <h3 class="portfolio__title">Facial Recognition Attendance System</h3>
@@ -620,7 +630,7 @@
                                         <p class="portfolio__description">
                                             Developed using Python and MySQL as the database.
                                         </p>
-                                        <a href="project.html#project2" class="button button--flex button--small portfolio__button">
+                                        <a href="pages/project.html#project2" class="button button--flex button--small portfolio__button">
                                             View
                                             <i class="uil uil-arrow-right button__icon"></i><br>
                                         </a>
@@ -640,9 +650,9 @@
                 <div class="card-bg" style="padding-bottom: 0;">
                     <div class="project__container container grid">
                         <div class="project__data">
-                            <h2 class="project__title">Hire Me</h2>
-                            <p class="project__description">As an ambitious and dedicated fresher, I bring a fresh perspective, a hunger to learn, and a drive to excel in the IT industry. With my strong academic background, adaptability, and passion for coding, web and app development. I am ready to contribute and grow alongside your esteemed organization. Hire me for a dynamic and promising addition to your team.</p>
-                            <a href="#contact" class="button button--flex button--white">
+                            <h2 class="project__title">Why Hire Me?</h2>
+                            <p class="project__description">As an ambitious and dedicated fresher with a hunger to learn, and a drive to excel in the IT industry. With my strong academic background, adaptability, and passion for coding, web and app development. I am ready to contribute and grow alongside your esteemed organization. Hire me for a dynamic and promising addition to your team.</p>
+                            <a href="#contact" class="contact-btn button button--flex button--white">
                                 Contact Me <i class="uil uil-message project__icon button__icon"></i>
                             </a>
                         </div>
@@ -664,10 +674,26 @@
                     <div>
                         <swiper-container class="mySwiper" pagination-clickable="true" autoplay-delay="4500" autoplay-disable-on-interaction="true" pagination="true" keyboard="true" mouse="true" loop="true">
 
-                            <swiper-slide style="padding-bottom: 3rem;">
+                            <swiper-slide style="padding-bottom: 2rem;">
                                 <!--==================== PORTFOLIO 1====================-->
                                 <div class="certification__content grid mySwiper">
-                                    <!-- <img src="assets/img/certificate_android.jpg" alt="" class="portfolio__img"> -->
+                                    <a href="assets/img/certificate_deloitte.jpg" class="glightbox portfolio__img">
+                                        <img src="assets/img/certificate_deloitte.jpg" alt="" />
+                                      </a>
+
+                                    <div class="certification__data">
+                                        <h3 class="certification__title">Android App Development</h3>
+                                        <p class="certification__subtitle">Deloitte <br> June, 2023</p>
+                                        <p class="certification__description">
+                                            Completed few tasks including coding with python, how to use tableau to analyse data, finding unauthorised acces made to the network and more.
+                                        </p>
+                                    </div>
+                                </div>
+                            </swiper-slide>
+
+                            <swiper-slide style="padding-bottom: 2rem;">
+                                <!--==================== PORTFOLIO 1====================-->
+                                <div class="certification__content grid mySwiper">
                                     <a href="assets/img/certificate_android.jpg" class="glightbox portfolio__img">
                                         <img src="assets/img/certificate_android.jpg" alt="" />
                                       </a>
@@ -685,7 +711,6 @@
                             <swiper-slide>
                                 <!--==================== PORTFOLIO 2====================-->
                                 <div class="certification__content grid mySwiper">
-                                    <!-- <img src="assets/img/certificate_nptel.jpg" alt="" class="portfolio__img"> -->
                                     <a href="assets/img/certificate_nptel.jpg" class="glightbox portfolio__img">
                                         <img src="assets/img/certificate_nptel.jpg" alt="" />
                                     </a>
@@ -704,7 +729,6 @@
                             <swiper-slide>
                                 <!--==================== PORTFOLIO 3====================-->
                                 <div class="certification__content grid mySwiper">
-                                    <!-- <img src="assets/img/certificate_python.jpg" alt="" class="portfolio__img"> -->
                                     <a href="assets/img/certificate_python.jpg" class="glightbox portfolio__img">
                                         <img src="assets/img/certificate_python.jpg" alt="" />
                                     </a>
@@ -722,7 +746,6 @@
                             <swiper-slide>
                                 <!--==================== PORTFOLIO 4====================-->
                                 <div class="certification__content grid mySwiper">
-                                    <!-- <img src="assets/img/certificate_wd.jpg" alt="" class="portfolio__img"> -->
                                     <a href="assets/img/certificate_wd.jpg" class="glightbox portfolio__img">
                                         <img src="assets/img/certificate_wd.jpg" alt="" />
                                     </a>
@@ -740,7 +763,6 @@
                             <swiper-slide>
                                 <!--==================== PORTFOLIO 5====================-->
                                 <div class="certification__content grid mySwiper">
-                                    <!-- <img src="assets/img/certificate_php.jpg" alt="" class="portfolio__img"> -->
                                     <a href="assets/img/certificate_php.jpg" class="glightbox portfolio__img">
                                         <img src="assets/img/certificate_php.jpg" alt="" />
                                     </a>
@@ -758,7 +780,6 @@
                             <swiper-slide>
                                 <!--==================== PORTFOLIO 5====================-->
                                 <div class="certification__content grid mySwiper">
-                                    <!-- <img src="assets/img/certificate_php.jpg" alt="" class="portfolio__img"> -->
                                     <a href="assets/img/certificate_git.jpg" class="glightbox portfolio__img">
                                         <img src="assets/img/certificate_git.jpg" alt="" />
                                     </a>
@@ -776,7 +797,6 @@
                             <swiper-slide>
                                 <!--==================== PORTFOLIO 5====================-->
                                 <div class="certification__content grid mySwiper">
-                                    <!-- <img src="assets/img/certificate_php.jpg" alt="" class="portfolio__img"> -->
                                     <a href="assets/img/certificate_digitalmarketing.jpg" class="glightbox portfolio__img">
                                         <img src="assets/img/certificate_digitalmarketing.jpg" alt="" />
                                     </a>
@@ -818,7 +838,7 @@
                             <i class="uil uil-envelope contact__icon"></i>
                             <div>
                                 <h3 class="contact__title">Email</h3>
-                                <span class="contact__subtitle">Harsh@email.com</span>
+                                <span class="contact__subtitle">harshkr.127@gmail.com</span>
                             </div>
                         </div>
 
@@ -831,27 +851,36 @@
                         </div>
                     </div>
 
-                    <form action="" class="contact__form grid">
+                    <form action="https://formsubmit.co/hrskr.127@gmail.com" method="POST" class="contact__form grid">
+                        <!-- Honeypot -->
+                        <input type="text" name="_honey" style="display: none;">
+
+                        <!-- Disable Captcha -->
+                        <input type="hidden" name="_captcha" value="false">
+
+                        <!-- Success Page -->
+                        <input type="hidden" name="_next" value="https://github.com/harshsinn/portfolio/pages/success.html">
+
                         <div class="contact__inputs grid">
                             <div class="contact__content">
                                 <label for="" class="contact__input">Name</label>
-                                <input type="text" class="contact__input">
+                                <input type="text" id="name" name="Name" class="contact__input" required>
                             </div>
 
                             <div class="contact__content">
                                 <label for="" class="contact__input">Email</label>
-                                <input type="email" class="contact__input">
+                                <input type="email" id="email" name="Email" class="contact__input" required>
                             </div>
                         </div>
 
                         <div class="contact__content">
                             <label for="" class="contact__input">Subject</label>
-                            <input type="text" class="contact__input">
+                            <input type="text" name="Subject" class="contact__input" required>
                         </div>
 
                         <div class="contact__content">
                             <label for="" class="contact__input">Message</label>
-                            <textarea name="" id="" cols="0" rows="7" class="contact__input"></textarea>
+                            <textarea name="" id="" cols="0" rows="7" name="Message" class="contact__input" required></textarea>
                         </div>
 
                         <div>
@@ -897,11 +926,10 @@
         </footer>
         
         <!--==================== SCROLL TOP ====================-->
-        <a href="#" id="scroll-up" class="scroll-up-btn">
+        <a href="#" id="scroll-up" class="scroll-up-btn" style="padding-top: 2px;">
             <i class="uil uil-arrow-up scroll-up-button"></i>
-          </a>
+        </a>
           
-
         <!--==================== SWIPER JS ====================-->
         <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-element-bundle.min.js"></script>
 

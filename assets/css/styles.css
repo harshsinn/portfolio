@@ -592,6 +592,9 @@ img {
 .skills__flutter {
   width: 65%;
 }
+.skills__dart {
+  width: 60%;
+}
 
 .skills__close .skills__list {
   height: 0;
@@ -1152,6 +1155,10 @@ img {
     justify-content: center;
   }
 
+  .portfolio__img {
+    width: 50vw;
+  }
+
   .social-media {
     justify-content: center;
   }
@@ -1238,9 +1245,9 @@ img {
   .about__info {
     justify-content: space-evenly;
   }
-  .about__buttons {
+  /* .about__buttons {
     justify-content: initial;
-  }
+  } */
 
   .skills__container {
     margin: 2rem 4rem 0 5rem;
@@ -1271,6 +1278,7 @@ img {
   }
 
   .portfolio__img {
+    border-radius: 5px;
     width: 320px;
   }
   .portfolio__content {
@@ -1393,4 +1401,35 @@ img {
   .portfolio__img {
     width: 500px;
   }
+}
+
+/* Hide images for smaller devices and small adjustments*/
+@media screen and (max-width: 714px) {
+  .project__img {
+    display: none !important;
+  }
+  .project__container {
+    display: inherit;
+    width: fit-content;
+  }
+  .contact-btn {
+    margin-bottom: 2rem;
+  }
+}
+
+
+/* PROJECT PAGE */
+.portfolio_description {
+  font-size: var(--small-font-size);
+  color: var(--text-color-light);
+}
+
+.portfolio_img {
+  width: 68vw;
+  border-radius: 0.5rem;
+  justify-self: center;
+}
+
+.portfolio_data {
+  margin: 2rem auto 3rem;
 }
